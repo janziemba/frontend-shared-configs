@@ -1,6 +1,6 @@
 {
     "name": "@janziemba/frontend-shared-configs",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "repository": "git://github.com/janziemba/frontend-shared-configs.git",
     "dependencies": {
         "prettier": "^2.4.1"
