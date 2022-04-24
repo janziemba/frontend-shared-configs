@@ -86,4 +86,4 @@ yarn husky add .husky/pre-commit "yarn pretty-quick --staged && yarn lint-staged
 yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
 ```
 
-https://github.com/typicode/husky/issues/904#issuecomment-862184954
+See: https://github.com/typicode/husky/issues/904#issuecomment-862184954
