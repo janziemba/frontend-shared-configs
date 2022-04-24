@@ -1,6 +1,6 @@
 {
     "name": "@janziemba/eslint-config-next",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": "git://github.com/janziemba/frontend-shared-configs.git",
     "main": "index.js",
     "dependencies": {
