@@ -1,0 +1,25 @@
+{
+    "name": "@janziemba/frontend-shared-configs",
+    "version": "1.0.0",
+    "repository": "git://github.com/janziemba/frontend-shared-configs.git",
+    "dependencies": {
+        "prettier": "^2.4.1"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^14.1.0",
+        "@commitlint/config-conventional": "^14.1.0",
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/commit-analyzer": "^9.0.1",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/npm": "^8.0.2",
+        "@semantic-release/release-notes-generator": "^10.0.2",
+        "conventional-changelog-eslint": "^3.0.9",
+        "husky": "^7.0.4",
+        "lerna": "^4.0.0",
+        "pretty-quick": "^3.1.1",
+        "semantic-release": "^18.0.0"
+    },
+    "scripts": {
+        "prepare": "test -d .git/ && husky install && echo 'PATH=$PATH:'$PATH >> .husky/_/husky.sh || exit 0"
+    }
+}

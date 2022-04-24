@@ -1,0 +1,15 @@
+{
+    "name": "@janziemba/eslint-config-react",
+    "version": "1.0.0",
+    "repository": "git://github.com/janziemba/frontend-shared-configs.git",
+    "main": "index.js",
+    "dependencies": {
+        "@babel/eslint-parser": "^7.16.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint-plugin-react-hooks": "^4.2.1-alpha-9c8161ba8-20211028"
+    },
+    "peerDependencies": {
+        "eslint": "^7"
+    }
+}

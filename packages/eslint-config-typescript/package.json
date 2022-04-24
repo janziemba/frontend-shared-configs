@@ -1,0 +1,14 @@
+{
+    "name": "@janziemba/eslint-config-typescript",
+    "version": "1.0.0",
+    "repository": "git://github.com/janziemba/frontend-shared-configs.git",
+    "main": "index.js",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.2.0",
+        "@typescript-eslint/parser": "^5.2.0",
+        "eslint-plugin-typescript-sort-keys": "^2.0.0"
+    },
+    "peerDependencies": {
+        "eslint": "^7"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "lerna": "4.0.0",
+    "version": "independent",
+    "loglevel": "success",
+    "packages": ["packages/*"],
+    "command": {
+        "bootstrap": {
+            "npmClientArgs": ["--legacy-peer-deps"]
+        },
+        "publish": {
+            "registry": "https://npm.pkg.github.com"
+        },
+        "version": {
+            "allowBranch": ["main"],
+            "conventionalCommits": true,
+            "ignoreChanges": ["package-lock.json"],
+            "message": "Chore: Release [skip ci]"
+        }
+    },
+    "npmClient": "yarn"
+}
